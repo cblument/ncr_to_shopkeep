@@ -22,3 +22,7 @@ def test_fix_barcode_len12():
 
 def test_fix_barcode_len13():
     assert fix_barcode('1234567899999') == '1234567899999'
+
+
+def  test_temp_fail_for_github_actions():
+    assert True == False
